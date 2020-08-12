@@ -1,0 +1,27 @@
+$background-top: "../img/background/top-background1.png" ;
+$garisbawah:underline;
+$warnafont:#f7979d;
+$big:219%;
+$tebal:bold;
+$putih:white;
+$gradiasi:linear-gradient(to right, #5e659d ,#f7979d );
+$revertg:linear-gradient(to right, #ffffff ,#ffffff );
+$dark-purple:#5c6188;
+$ungu:#9a547e;
+$ungu-muda:#da83b6;
+
+%tombol{
+  background: $revertg;
+	border-radius:20px;
+  color: $ungu;
+	padding-left:30px;
+	padding-right:30px;
+  font-weight:bold;
+  border-color: $ungu;
+
+}
+%thover{
+  background: $gradiasi;
+  color:white;
+  border-color: $ungu;
+}
